@@ -1,12 +1,15 @@
-
+import React from 'react';
+import Header from './components/Header';
 import './App.css';
+import SearchBar from './components/SearchBar';
+import FilterOptions from './components/filter-options-components/FileterOptions';
 
 function App() {
   return (
     <div className="App">
-      <h2>Recipie search app</h2>
-      <p>Find your favouirte lunch ideas</p>
-      <p>You can search by ingredients, cuisine, country, rating</p>
+      <Header/>
+      <SearchBar />
+      <FilterOptions />
     </div>
   );
 }
