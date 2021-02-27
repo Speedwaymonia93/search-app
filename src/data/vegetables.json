@@ -1,0 +1,37 @@
+[
+    {
+        "id":"carrot",
+        "name":"carrot",
+        "img":"./icons/carrot.svg"
+    },
+    {
+        "id":"tomato",
+        "name":"tomato",
+        "img":"./icons/tomato.svg"
+    },
+    {
+        "id":"betroot",
+        "name":"beetroot",
+        "img":"./icons/beetroot.svg"
+    },
+    {
+        "id":"potato",
+        "name":"potato",
+        "img":"./icons/potato.svg"
+    },
+    {
+        "id":"broccoli",
+        "name":"broccoli",
+        "img":"./icons/broccoli.svg"
+    },
+    {
+        "id":"beans",
+        "name":"beans",
+        "img":"./icons/beans.svg"
+    },
+    {
+        "id":"cucumber",
+        "name":"cucumber",
+        "img":"./icons/cucumber.svg"
+    }
+]

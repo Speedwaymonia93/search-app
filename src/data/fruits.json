@@ -1,0 +1,37 @@
+[
+    {
+        "id": "apple",
+        "name": "apple",
+        "img":"./icons/apple.svg"
+    },
+    {
+        "id": "orange",
+        "name": "orange",
+        "img":"./icons/orange.svg"
+    },
+    {
+        "id": "lemon",
+        "name": "lemon",
+        "img":"./icons/lemon.svg"
+    },
+    {
+        "id": "pear",
+        "name": "pear",
+        "img":"./icons/pear.svg"
+    },
+    {
+        "id": "strawberry",
+        "name": "strawberry",
+        "img":"./icons/strawberry.svg"
+    },
+    {
+        "id": "berry",
+        "name": "berry",
+        "img":"./icons/berry.svg"
+    },
+    {
+        "id": "watermelon",
+        "name": "watermelon",
+        "img":"./icons/watermelon.svg"
+    }
+]

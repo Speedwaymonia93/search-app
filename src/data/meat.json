@@ -1,0 +1,52 @@
+[
+    {
+        "id": "lamnb",
+        "name": "lamb",
+        "img":"./icons/sheep.svg"
+    },
+    {
+        "id": "chicken",
+        "name": "chicken",
+        "img":"./icons/hen.svg"
+    },
+    {
+        "id": "duck",
+        "name": "duck",
+        "img":"./icons/lamb.svg"
+    },
+    {
+        "id": "beef",
+        "name": "beef",
+        "img":"./icons/beef.svg"
+    },
+    {
+        "id": "turkey",
+        "name": "turkey",
+        "img":"./icons/turkey.svg"
+    },
+    {
+        "id": "wild_boar",
+        "name": "wild boar",
+        "img":"./icons/boar.svg"
+    },
+    {
+        "id": "bison",
+        "name": "bison",
+        "img":"./icons/bison.svg"
+    },
+    {
+        "id": "goose",
+        "name": "goose",
+        "img":"./icons/goose.svg"
+    },
+    {
+        "id": "rabbit",
+        "name": "rabbit",
+        "img":"./icons/rabbit.svg"
+    },
+    {
+        "id": "pheasant",
+        "name": "pheasant",
+        "img":"./icons/pheasant.svg"
+    }
+]

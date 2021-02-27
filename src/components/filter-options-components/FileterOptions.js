@@ -5,6 +5,7 @@ import VegetableFilter from './VegetableFilter';
 import CountryFilter from './CountryFilter';
 import RatingFilter from './RatingFilter';
 import CuisineFilter from './Cuisine';
+import '../../style/filter-option-style.css';
 function FilterOptions(){
 return(
     <>
@@ -13,8 +14,8 @@ return(
         <VegetableFilter />
         <FruitFilter />
         <CountryFilter />
-        <RatingFilter />
         <CuisineFilter />
+        <RatingFilter />
 
     </div>
    

@@ -1,3 +1,11 @@
 .header-style{
 font-size: 50px;
+color: #ff9999;
+}
+.p-style{
+    color: #ffcccc;
+}
+.span-style{
+    font-weight: 800;
+    
 }

@@ -1,0 +1,21 @@
+.img-style{
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+}
+
+.list-style{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+}
+.list-element-style{
+    margin: 10px;
+    padding: 3px;
+}
+.list-element-style:hover{
+    border-bottom: 1px solid #ffcccc;
+}
+.h3-style{
+    color: #ffe6e6;
+}

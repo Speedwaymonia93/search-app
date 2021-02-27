@@ -1,0 +1,32 @@
+[
+    {
+        "id":"mediterranean",
+        "name":"mediterranean",
+        "img":"./icons/oil.svg"
+    },
+    {
+        "id":"vegetarian",
+        "name":"vegetarian",
+        "img":"./icons/diet.svg"
+    },
+    {
+        "id":"dairy_free",
+        "name":"dairy free",
+        "img":"./icons/dairy.svg"
+    },
+    {
+        "id":"lactose_free",
+        "name":"lactose free",
+        "img":"./icons/lactose-free.svg"
+    },
+    {
+        "id":"thai",
+        "name":"thai",
+        "img":"./icons/doi-suthep.svg"
+    },
+    {
+        "id":"fat_free",
+        "name":"fat free",
+        "img":"./icons/trans-fat-free.svg"
+    }
+]

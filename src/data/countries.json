@@ -1,0 +1,37 @@
+[
+    {
+        "id": "poland",
+        "name": "Poland",
+        "img":"./icons/poland.svg"
+    },
+    {
+        "id": "spain",
+        "name": "Spain",
+        "img":"./icons/spain.svg"
+    },
+    {
+        "id": "italy",
+        "name": "Italy",
+        "img":"./icons/italy.svg"
+    },
+    {
+        "id": "france",
+        "name": "France",
+        "img":"./icons/france.svg"
+    },
+    {
+        "id": "mexico",
+        "name": "Mexico",
+        "img":"./icons/mexico.svg"
+    },
+    {
+        "id": "argentina",
+        "name": "Argentina",
+        "img":"./icons/argentina.svg"
+    },
+    {
+        "id": "brasil",
+        "name": "Brasil",
+        "img":"./icons/brazil.svg"
+    }
+]
