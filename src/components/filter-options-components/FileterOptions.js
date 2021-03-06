@@ -6,11 +6,12 @@ import CountryFilter from './CountryFilter';
 import RatingFilter from './RatingFilter';
 import CuisineFilter from './Cuisine';
 import '../../style/filter-option-style.css';
+
 function FilterOptions(){
 return(
     <>
     <div className="filter-container">
-        <MeatFilter />
+        <MeatFilter/>
         <VegetableFilter />
         <FruitFilter />
         <CountryFilter />

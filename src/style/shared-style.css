@@ -18,4 +18,15 @@
 }
 .h3-style{
     color: #ffe6e6;
+    font-size: 20px;
+}
+
+.filter-element-style{
+    margin-right: 30px;
+}
+
+.img-filter-style{
+    width: 45px;
+    height: 45px;
+    margin-right:10px;
 }
