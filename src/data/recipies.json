@@ -1,0 +1,32 @@
+[
+    {
+        "id":"rec1",
+        "title": "A recipie 1 with meat",
+        "ingredients": ["lamb", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg"
+    },
+    {
+        "id":"rec2",
+        "title": "A recipie 2 with meat",
+        "ingredients": ["pork", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg"
+    },
+    {
+        "id":"rec3",
+        "title": "A recipie 3 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg"
+    }
+]
