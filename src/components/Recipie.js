@@ -1,27 +1,25 @@
 import React from 'react';
-import reciepiesList from '../data/recipies.json';
 
-function Recipie(){
-
-    return(
-        <>
-             <div>
-                  {
-                      reciepiesList.map((recipie)=>{
-                          return(
-                              <div>
-                                  <p>{recipie.title}</p>
-                                  <p>{recipie.ingredients}</p>
-                                  <p>{recipie.country}</p>
-                              </div>
-                          )
-                      })
-                  }
-                  
-             </div>
-        </>
-    )
+class Recipie extends React.Component{
+   
+    render(){
+        let array = this.props.recipie.map(obj => Object.values(obj));
+        let counter = 0;
+        console.log(this.props.recipie);
+        return(
+            <div>
+                {
+                    array.map((element)=>{
+                        return(
+                            <p>{element.title}</p>
+                        )
+                    })
+                }
+            </div>
+                )
+    }
 }
+
 
 
 export default Recipie

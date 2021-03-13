@@ -3,14 +3,17 @@ import Header from './components/Header';
 import './App.css';
 import SearchBar from './components/SearchBar';
 import FilterOptions from './components/filter-options-components/FileterOptions';
-import Recipie from './components/Recipie';
+import RecipieList from './components/RecipieList';
+
 function App() {
+  
   return (
     <div className="App">
       <Header/>
-      <SearchBar />
+      {/*}
+      <SearchBar />*/}
       <FilterOptions />
-      <Recipie />
+      <RecipieList />
       
     </div>
   );

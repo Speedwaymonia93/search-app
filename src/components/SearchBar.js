@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/search-bar-style.css';
 import reciepiesList from '../data/recipies.json';
-import Recipie from '../components/Recipie';
+import Recipie from './RecipieList';
 
 class SearchBar extends React.Component{
     constructor(){
@@ -16,7 +16,7 @@ class SearchBar extends React.Component{
         this.setState({searchField: event.target.value.substr(0,20)});
     }
     render(){
-        let filteredRecipies = this.props.reciepiesList.filter(
+        let filteredRecipies = this.props.recipies.filter(
             (element)=>{
                 return element.title.toLowerCase().indexOf(this.state.searchField.toLocaleLowerCase()) !== -1
             }
