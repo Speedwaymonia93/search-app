@@ -26,3 +26,8 @@
     cursor: pointer;
     box-shadow: 0 0 8px #ff9999;;
 }
+
+.recipie-container{
+    display: flex;
+    flex-direction: row;
+}

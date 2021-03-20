@@ -1,48 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../style/search-bar-style.css';
-import reciepiesList from '../data/recipies.json';
-import Recipie from './RecipieList';
+import Recipie from './Recipie';
 
-class SearchBar extends React.Component{
-    constructor(){
-        super();
-        this.state = {
-            searchField: ''
+const SearchBar = ({data}) => {
+
+    const [search, setSearch] = useState('');
+    const updateSearch = e => {
+        setSearch(e.target.value);
+    }
+    
+    let filteredList = data.filter(
+        (element)=> {
+            return element.title.indexOf(search) !== -1;
         }
-        this.searchUpdate = this.searchUpdate.bind(this);
-    }
-
-    searchUpdate(event){
-        this.setState({searchField: event.target.value.substr(0,20)});
-    }
-    render(){
-        let filteredRecipies = this.props.recipies.filter(
-            (element)=>{
-                return element.title.toLowerCase().indexOf(this.state.searchField.toLocaleLowerCase()) !== -1
+    );
+    
+    return(
+        <>
+        <div>
+            
+            <form className="form-style"> 
+                <input className="search-bar" type="text" value={search} onChange={updateSearch}></input>
+                {/* <button className="search-button" type="submit" onClick={getTest}>Show recipie</button> */}
+            </form>
+            <div className="recipie-container">
+            {
+                filteredList.map((element) => {
+                    return(
+                            <Recipie title={element.title} key={element.id} rating={element.rating} ingredients={element.ingredients}/>
+                        )
+                })
             }
-        );
-
-        return(
-            <>
-            <div>
-                {
-                 filteredRecipies.map((recipie) => {
-                     return(
-                         <div>
-                             <Recipie recipie={recipie} key={recipie.id} />
-                        </div>
-                     )
-                 })   
-                }
-                <form className="form-style"> 
-                    <input className="search-bar" type="text" value={this.state.searchField} onChange={this.searchUpdate}></input>
-                    <button className="search-button" type="submit">Show recipie</button>
-                </form>
             </div>
-            </>
-        )
-    }
+            
+        </div>
+        </>
+    )
 }
-
 
 export default SearchBar

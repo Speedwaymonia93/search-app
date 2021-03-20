@@ -28,5 +28,25 @@
         "cuisine": "thai",
         "rating": 3,
         "img-url": "../../ghghgh/gfgd.jpg"
+    },
+    {
+        "id":"rec4",
+        "title": "A recipie 4 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg"
+    },
+    {
+        "id":"rec5",
+        "title": "A recipie 5 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg"
     }
 ]
