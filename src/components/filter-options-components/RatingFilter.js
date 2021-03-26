@@ -3,7 +3,8 @@ import ratingData from '../../data/rating.json';
 import '../../style/shared-style.css';
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ratingIcon from '../../filter-icons/star.svg'
+import ratingIcon from '../../filter-icons/star.svg';
+
 class RatingFilter extends React.Component{
     constructor(){
         super();

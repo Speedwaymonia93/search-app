@@ -1,112 +1,184 @@
 [
     {
-        "id":"rec1",
-        "title": "A recipie 1 with meat",
-        "ingredients": ["lamb", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+      "id": "rec1",
+      "title": "Creamy curry with prawns and coconut milk",
+      "rating": 3,
+      "category": "seafood",
+      "ingredients": [
+      "100 g rice (to serve)",
+     "400 g prawns",
+      "1 tablespoon of oil (e.g. coconut oil)",
+      "2 cloves of garlic",
+      "1 1/2 cm piece of ginger",
+      "1/2 red onion",
+      "2 teaspoons green curry paste",
+      "150 g of peppers (e.g. green and yellow)",
+      "150 g eggplant (or mushrooms)",
+      "400 ml coconut milk (thick, canned or carton)",
+      "1 tbsp fish sauce",
+      "3 kaffir lime leaves*",
+      "2 tbsp lime juice"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
+    "steps":["Set the rice to cook. Thaw the shrimp - if necessary - clean and remove the carapace.",
+      "In a wok or large deep skillet, heat the oil. Add grated garlic and ginger, chopped onion and curry paste. Fry while stirring for about 1 minute.",
+      "Add the diced peppers and eggplant (or mushrooms) and continue to sauté stirring for about 5 minutes",
+      "Pour in the coconut milk, stir and cook over medium heat for about 8 minutes stirring every now and then. Meanwhile, add fish sauce and kaffir lime leaves.",
+     "Add the shrimp and cook for about 1.5 minutes, stirring every now and then. Drizzle with lime juice and serve with rice."],
+     "suggestions": "*can be bought in supermarkets in oriental food section, can be replaced by grated lime zest if desired",
+     "url": "../images/curry.jpg"
     },
-    {
-        "id":"rec2",
-        "title": "A recipie 2 with meat",
-        "ingredients": ["pork", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+      {
+      "id": "rec2",
+      "title": "Shrimp fried in beer batter served with tartar sauce and capers. ",
+      "rating": 3,
+      "category": "seafood",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
+      "ingredients": [
+      "About 150 ml of light chilled beer",
+     "125 g flour + 3 extra tablespoons to coat the prawns",
+      "1/2 teaspoon baking powder",
+     "1/4 teaspoon hot bell pepper",
+     "oil for deep frying",
+     "300 grams of raw shrimp, peeled, with tail",
+     "2 lemons, cut into quarters"
+  ],
+  "tatar-sauce": [ "300 ml mayonnaise.",
+      "Half a bunch of dill, chopped",
+     "2 tablespoons chopped parsley",
+      "1 tablespoon finely chopped capers",
+      "2 Tbsp finely chopped gherkins"
+  ],
+    "steps":[ "Gradually mix beer with flour previously mixed with baking powder, hot bell pepper and salt. Add enough beer to get the right consistency of batter (it should be thick).",
+      "Heat the oil to a depth of at least 5 cm, coat the shrimp in flour and dip them in the batter, holding them by the tail. Scrape off the excess batter and dip into the hot oil. Fry 4 shrimp in smaller pots at a time, so that the oil temperature does not drop too low and the batter does not soak up too much fat. Fry the shrimp for about 2 minutes until golden brown.",
+     " Drain on paper towel and season with salt if desired. Serve with lemon pieces and tartar sauce in a separate bowl. Just stir the sauce ingredients together."],
+     "suggestions": "* You can use carbonated mineral water instead of beer.",
+     "url":"../images/shrimp.jpg"
     },
-    {
-        "id":"rec3",
-        "title": "A recipie 3 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+     {
+      "id": "rec3",
+      "title": "Tandoori chicken. Chicken legs in aromatic marinade with yoghurt",
+      "rating": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
+      "category": "chicken",
+      "ingredients": [
+       "1 kg chicken drumsticks",
+     "salt",
+      "2 teaspoons of garam masala spice mix.",
+      "1-2 teaspoons hot bell pepper.",
+      "1 teaspoon sweet paprika",
+      "2 tablespoons olive oil or oil",
+      "1 tsp finely grated ginger",
+      "4 cloves of garlic, finely grated or pressed",
+      "1/2 onion, finely grated",
+      "1 tsp honey (optional, not found in the original) or sugar",
+      "1 tablespoon tomato paste",
+      "juice of 1/2 lemon",
+      "1 cup 250 ml natural yogurt",
+      "A few drops of red food colouring (optional)"
+  ],
+    "steps":[
+      "Remove skin from shanks (discard skins will not be needed in this recipe). Pat the drumsticks dry with a paper towel, season with salt, place them in a large plastic or glass bowl, and coat with the garam masala spice mixture, hot and sweet paprika. Add olive oil or oil and use your hands to thoroughly grease the chicken.",
+      "Then add ginger, garlic, onion, honey, tomato paste, lemon juice and rub the chicken again. Add natural yogurt and food coloring if using, mix everything gently and set aside to marinate (overnight in the refrigerator or at least 3 hours on the stove top).",
+     " Remove the chicken thighs from the marinade (do not clean off the marinade), discard the remaining marinade accumulated at the bottom of the bowl, you won't need it anymore. Place the chicken on the grill and grill for 60 minutes on a covered garden grill, preferably using the indirect method with the coals spread over the sides of the grill - as in the photo below (under the chicken there is a tray with water into which the fat drips), or bake in an oven preheated to 200 degrees also for 60 minutes, turning the drumsticks from time to time. After baking, the meat should come away nicely from the bone. Serve with thick natural yogurt."],
+     "suggestions": "natural yoghurt / lettuce / couscous / grilled zucchini / salad with grilled zucchini and feta",
+     "url":"../images/tandori.jpg"
     },
-    {
-        "id":"rec4",
-        "title": "A recipie 4 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+   {
+      "id": "rec4",
+      "title": "Chicken Saltimbocca.",
+      "rating": 5,
+      "description": "Chicken fillets fried with sage and Parma ham with wine-butter sauce and cherry tomatoes. In the traditional version, Saltimbocca is prepared with veal schnitzels and no tomatoes.",
+      "category": "chicken",
+      "ingredients": [
+      "2 individual chicken breasts",
+     "salt and freshly ground pepper",
+      "extra-virgin olive oil and butter",
+     "a dozen sage leaves",
+     "80 grams of prosciutto crudo",
+      "1/4 cup dry white wine",
+      "1/2 teaspoon honey",
+      "1/4 cup broth or stock",
+      "200 grams of cherry tomatoes",
+      "A slice of lemon"
+  ],
+    "steps":[
+      "Cut the chicken lengthwise into 2 thinner fillets, additionally smash the thickest parts with a pestle so as to obtain meat of the same thickness. Season with salt and pepper, brush with 2 tablespoons of olive oil and leave to marinate for at least half an hour.",
+      "Lay the fillets on a board, place the sage leaves on top. Cover with a slice of Parma ham or cut the ham slices lengthwise in half and wrap the resulting strips around the fillets.",
+      "Heat a frying pan, pour in 3 tablespoons of olive oil and when hot place the fillets sage side down. Fry over medium heat for about 3 minutes, then flip to the other side and repeat frying for about 3 minutes.",
+      "Set the fried meat aside on a plate and cover with foil or a bowl. Pour the wine into the pan after the chicken, add honey and cook over high heat for about 3 minutes until reduced by half, pour in the broth and again cook over high heat for 3 minutes.",
+      "Add the halved cherry tomatoes and cook, stirring every now and then, for about 2 to 3 minutes until softened. Add 2 tablespoons of butter, melt and stir, put the fillets back in and heat through gently. Sprinkle with a slice of lemon, remove from heat."],
+     "suggestions": "e.g. pasta, potatoes, risotto, millet groats, quinoa, couscous",
+     "url":"../images/saltimbocca.jpg"
     },
-    {
-        "id":"rec5",
-        "title": "A recipie 5 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+   {
+      "id": "rec5",
+      "title": "Boeuf Bourguignon - Beef in Burgundy. French beef stew with mushrooms and red wine s.",
+      "rating": 4,
+      "category": "beef",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
+      "ingredients": [
+      
+     " 1.5 kg of beef (e.g. neck, shoulder)",
+     "150 g smoked bacon",
+      "2 tablespoons vegetable oil.",
+      "50 g butter.",
+     "2 cloves of garlic",
+      "2 carrots.",
+      "1 leek",
+      "1 onion.",
+      "2 tablespoons wheat flour.",
+      "salt and pepper.",
+      "500 ml of beef bouillon.",
+     "500 ml dry red wine",
+      "2 tbsp cognac (optional)",
+     "1 tbsp tomato paste",
+      "1 bay leaf",
+     "a few sprigs of thyme and parsley",
+      "8 small shallots or 24 small pickled onions",
+     "200 g small mushrooms"
+  ],
+    "steps":[
+      "Cut the meat into larger pieces (about 4 - 5 cm). Put diced bacon into a large skillet with a thick bottom and fry slowly until browned. Remove to a plate leaving the fat.",
+    "Pour a tablespoon of oil and add half of the butter, in batches fry the pieces of meat on each side, after frying put them on a plate",
+     "Put the remaining fat in the pan and fry grated garlic, sliced carrots and leek and finely chopped onion. Sprinkle with flour, season with salt and pepper and fry for a while",
+      "Transfer the ingredients from the skillet to a larger ovenproof dish. Pour the broth, wine, cognac and concentrate and bring to a boil. Add the bay leaf, chopped thyme stems and chopped parsley, then put in the fried meat and bacon. The ingredients should be completely covered by the marinade.",
+    "After bringing back to a boil, cover the dish and place in an oven preheated to 150 degrees C. Bake for about 2 1/2 hours. ",
+      "In a skillet in the rest of the butter, sauté the peeled shallots and whole mushrooms (do not sauté the pickled onions). Add to stew, stir and "],
+     "suggestions": "Beef Burgundy will be even better if you prepare it the day before. Then take the dish out of the oven after 2 hours of roasting. The next day, boil it and bake for about an hour more (in the middle of cooking uncover and add fried mushrooms and onions).",
+     "url":"../images/boeuf-burg.jpg" 
     },
-    {
-        "id":"rec6",
-        "title": "A recipie 5 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
-    },
-    {
-        "id":"rec7",
-        "title": "A recipie 5 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 5,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
-    },
-    {
-        "id":"rec8",
-        "title": "A recipie 5 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
-    },
-    {
-        "id":"rec9",
-        "title": "A recipie 5 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
-    },
-    {
-        "id":"rec10",
-        "title": "A recipie 5 with fruit",
-        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
-        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
-        "country":"Poland",
-        "cuisine": "thai",
-        "rating": 2,
-        "img-url": "../../ghghgh/gfgd.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+  {
+      "id": "rec6",
+      "title": "Stir-fry with beef and broccoli",
+      "description":"Chinese wok dish with thinly sliced beef and broccoli in a thick sauce, served with rice.",
+      "rating": 3,
+      "category": "beef",
+      "ingredients": [
+         "200 g beef (sirloin or entrecote, brisket)",
+      "1/2 broccoli.",
+    "oil for frying (e.g. coconut oil)"
+  
+  ],
+  "sauce":[ "3 cloves of garlic.",
+      "2 cm piece of ginger.",
+      "2 tablespoons of sugar.",
+     "5 tablespoons of soy sauce.",
+      "150 ml of water",
+      "2 tablespoons sesame oil",
+      "2 pinches of white pepper (or black pepper)",
+      "2 teaspoons starch (potato flour)"
+  ],
+    "steps":[ "Put the beef in the freezer beforehand for about half an hour (firmly cooled will cut better)",
+     "Prepare the side dishes: cook the rice and roast the sesame seeds in a dry pan. Wash the broccoli and cut into small florets.",
+     "Peel and finely grate the ginger and garlic. Mix in a bowl with the remaining sauce ingredients, set aside.",
+      "Heat a wok or deep skillet, add 1/2 tablespoon oil. Add the broccoli, season with a pinch of salt and stir-fry for 1 - 2 minutes. Then add a few tablespoons of water every now and then and cook the broccoli this way for about 7 minutes. Remove from the pan and set aside on a plate.",
+      "Remove the meat from the freezer and cut it into thin strips",
+      "In the same pan, add a tablespoon of oil. When it is hot, put in the meat and fry it for 1 minute on high heat. Turn over to the other side and repeat the frying.",
+      "Pour in the sauce and bring to a boil. Boil for 2 to 3 minutes, add broccoli and mix. Serve with cooked rice sprinkled with sesame seeds."
+      ],
+      "url":"../images/stir-fry-boeuf.jpg" 
     }
-]
+  ]
+
+ 

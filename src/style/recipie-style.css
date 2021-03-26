@@ -13,8 +13,15 @@
 }
 .recipie-title{
     font-family: 'Lobster', cursive;
+    color: #ff9999;
 }
 
 .recipie-description{
     font-family: 'Montserrat', sans-serif;
+}
+.recipie-img-style{
+    width: 310px;
+    height: 210px;
+    
+    border-radius: 5px;
 }

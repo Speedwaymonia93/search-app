@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../style/search-bar-style.css';
 import Recipie from './Recipie';
-
 const SearchBar = ({data}) => {
 
     const [search, setSearch] = useState('');
@@ -30,7 +29,8 @@ const SearchBar = ({data}) => {
                             <Recipie title={element.title} key={element.id} 
                             rating={element.rating} 
                             ingredients={element.ingredients}
-                            description={element.description}/>
+                            description={element.description}
+                            url={element.url}/>
                         )
                 })
             }
