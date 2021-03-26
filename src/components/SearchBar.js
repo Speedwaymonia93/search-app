@@ -27,7 +27,10 @@ const SearchBar = ({data}) => {
             {
                 filteredList.map((element) => {
                     return(
-                            <Recipie title={element.title} key={element.id} rating={element.rating} ingredients={element.ingredients}/>
+                            <Recipie title={element.title} key={element.id} 
+                            rating={element.rating} 
+                            ingredients={element.ingredients}
+                            description={element.description}/>
                         )
                 })
             }

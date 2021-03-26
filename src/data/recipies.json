@@ -7,7 +7,8 @@
         "country":"Poland",
         "cuisine": "thai",
         "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg"
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
     },
     {
         "id":"rec2",
@@ -17,7 +18,8 @@
         "country":"Poland",
         "cuisine": "thai",
         "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg"
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
     },
     {
         "id":"rec3",
@@ -27,7 +29,8 @@
         "country":"Poland",
         "cuisine": "thai",
         "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg"
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
     },
     {
         "id":"rec4",
@@ -37,7 +40,8 @@
         "country":"Poland",
         "cuisine": "thai",
         "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg"
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
     },
     {
         "id":"rec5",
@@ -47,6 +51,62 @@
         "country":"Poland",
         "cuisine": "thai",
         "rating": 3,
-        "img-url": "../../ghghgh/gfgd.jpg"
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+    },
+    {
+        "id":"rec6",
+        "title": "A recipie 5 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+    },
+    {
+        "id":"rec7",
+        "title": "A recipie 5 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 5,
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+    },
+    {
+        "id":"rec8",
+        "title": "A recipie 5 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+    },
+    {
+        "id":"rec9",
+        "title": "A recipie 5 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 3,
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
+    },
+    {
+        "id":"rec10",
+        "title": "A recipie 5 with fruit",
+        "ingredients": ["apple", "gffgfgdg", "fgfgdgf", "fgfdggdgf","fgfdgfg"],
+        "steps":["fgdfggdgfgd","fgggdfgd", "fgfdgfdgdgdfg", "gfgfgfgdfgdf"],
+        "country":"Poland",
+        "cuisine": "thai",
+        "rating": 2,
+        "img-url": "../../ghghgh/gfgd.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie dui, nec bibendum arcu. Sed id sollicitudin odio, sit amet convallis enim. Praesent pellentesque nisi vel neque feugiat lobortis. "
     }
 ]

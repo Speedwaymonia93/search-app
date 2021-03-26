@@ -24,10 +24,12 @@
     background-color: #ff9999;
     color: white;
     cursor: pointer;
-    box-shadow: 0 0 8px #ff9999;;
+    box-shadow: 0 0 8px #ff9999;
 }
 
 .recipie-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;   
 }
+

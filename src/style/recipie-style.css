@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+.recipie-element{
+    margin: 20px;
+    border: 1px solid #595959;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 8px #bfbfbf;
+    border-radius: 5px;
+    background-color: #737373;
+    padding: 10px;
+}
+.recipie-title{
+    font-family: 'Lobster', cursive;
+}
+
+.recipie-description{
+    font-family: 'Montserrat', sans-serif;
+}
