@@ -30,7 +30,9 @@ const SearchBar = ({data}) => {
                             rating={element.rating} 
                             ingredients={element.ingredients}
                             description={element.description}
-                            url={element.url}/>
+                            url={element.url}
+                            steps={element.steps}
+                            />
                         )
                 })
             }

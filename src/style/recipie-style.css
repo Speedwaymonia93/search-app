@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light&family=Montserrat&display=swap');
 
 .recipie-element{
     margin: 20px;
     border: 1px solid #595959;
-    width: 400px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 8px #bfbfbf;
@@ -25,3 +25,48 @@
     
     border-radius: 5px;
 }
+.header-rec-style{
+    color: #ff9999;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px #ffcccc;
+    border-left: 3px solid #ffcccc;
+    border-right: 3px solid #ffcccc;
+
+}
+.ordered-list-ingr-style{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+.ordered-list-ingr-style li {
+    counter-increment: my-awesome-counter;
+  }
+.ordered-list-ingr-style li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #ffcccc;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  .unordered-list-ingr-style {
+    list-style: none; /* Remove default bullets */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .unordered-list-ingr-style li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #ffcccc; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
