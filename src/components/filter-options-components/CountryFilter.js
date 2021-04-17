@@ -5,12 +5,25 @@ import countryIcon from '../../filter-icons/world.svg';
 
 class CountryFilter extends React.Component{
     constructor(){
-        super();
+       super();
 
         this.state = {
             countryToggle: false,
+            recipiesByCountry: ''
         }
         this.toggleCountry = this.toggleCountry.bind(this);
+        this.searchByCountry = this.searchByCountry.bind(this);
+
+        let filteredList = data.filter(
+            (element)=> {
+                return element.title.indexOf(search) !== -1;
+            }
+        );
+    }
+
+    searchByCountry(e){
+        this.setState({ recipiesByCountry:e.target.id})
+        console.log(this.state.recipiesByCountry);
     }
 
     toggleCountry(){
@@ -19,6 +32,7 @@ class CountryFilter extends React.Component{
         }));
     }
 
+    
     render(){
         return(
             <>
@@ -29,12 +43,15 @@ class CountryFilter extends React.Component{
                         this.state.countryToggle ?
                         countriesData.map((country)=>{
                             return(
-                                <li className="list-element-style" key={country.id}><img src={country.img} className="img-style"/>{country.name}</li>
+                                     <li key={country.id} id={country.id} onClick={this.searchByCountry} 
+                                     className="list-element-style">
+                                    <img src={country.img} className="img-style"/>{country.name}</li>
                             )
                         }) : null
                     }
                 </ul>
             </div>
+            <Recipie />
             </>
         )
     }

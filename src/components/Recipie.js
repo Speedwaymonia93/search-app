@@ -4,7 +4,9 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import cooking from "../filter-icons/cooking.svg";
 import rec from "../filter-icons/image-rec-1.svg";
-const Recipie = ({title, rating,ingredients, description, url, steps}) => {
+import {Link} from 'react-router-dom';
+
+const Recipie = ({id, title, rating,ingredients, description, url, steps}) => {
     return(
         <div className="recipie-element">
             <h1 className="recipie-title">{title}</h1>
@@ -15,7 +17,8 @@ const Recipie = ({title, rating,ingredients, description, url, steps}) => {
                 }
             </p>
             <p className="recipie-description">{description}</p>
-            <h3 className="header-rec-style">
+           
+        <h3 className="header-rec-style">
             <img style={{width:'50px', height:'50px', marginRight: '10px'}} src={rec} />
                 Ingredients:</h3>
             <ul className="unordered-list-ingr-style">
@@ -26,7 +29,7 @@ const Recipie = ({title, rating,ingredients, description, url, steps}) => {
                     )
                 })
             }
-            </ul>
+            </ul> 
             <h3 className="header-rec-style">
             <img style={{width:'50px', height:'50px', marginRight: '10px'}} src={cooking} />Steps:</h3>
             <ol className="ordered-list-ingr-style">
@@ -38,7 +41,8 @@ const Recipie = ({title, rating,ingredients, description, url, steps}) => {
                     })
                 }
             </ol>
-            {/*<button className="search-button" type="submit">More details</button>*/}
+            
+            
            
         </div>
     )

@@ -32,6 +32,7 @@ const SearchBar = ({data}) => {
                             description={element.description}
                             url={element.url}
                             steps={element.steps}
+                            id={element.id}
                             />
                         )
                 })
