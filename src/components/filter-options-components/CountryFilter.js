@@ -2,28 +2,31 @@ import React from 'react';
 import countriesData from '../../data/countries.json';
 import '../../style/shared-style.css'
 import countryIcon from '../../filter-icons/world.svg';
-
+import recipiesData from '../../data/recipies.json';
+import Recipie from '../Recipie';
 class CountryFilter extends React.Component{
     constructor(){
        super();
 
         this.state = {
             countryToggle: false,
-            recipiesByCountry: ''
+            recipiesByCountry: '',
+            arr: []
         }
         this.toggleCountry = this.toggleCountry.bind(this);
-        this.searchByCountry = this.searchByCountry.bind(this);
-
-        let filteredList = data.filter(
-            (element)=> {
-                return element.title.indexOf(search) !== -1;
-            }
-        );
+        this.searchByCountry = this.searchByCountry.bind(this);    
     }
+    
 
     searchByCountry(e){
-        this.setState({ recipiesByCountry:e.target.id})
+        this.setState({ recipiesByCountry:e.target.name})
         console.log(this.state.recipiesByCountry);
+         let arr = recipiesData.filter(
+            (element) => {
+                return element.country.indexOf(this.state.recipiesByCountry.name)!==-1
+            }
+        );
+        
     }
 
     toggleCountry(){
@@ -35,6 +38,7 @@ class CountryFilter extends React.Component{
     
     render(){
         return(
+            
             <>
             <div className="filter-element-style">
                 <h3 className="h3-style" onClick={this.toggleCountry}><img src={countryIcon} className="img-filter-style" />Country</h3>
@@ -43,7 +47,7 @@ class CountryFilter extends React.Component{
                         this.state.countryToggle ?
                         countriesData.map((country)=>{
                             return(
-                                     <li key={country.id} id={country.id} onClick={this.searchByCountry} 
+                                     <li key={country.id} id={country.id} name={country.name} onClick={this.searchByCountry} 
                                      className="list-element-style">
                                     <img src={country.img} className="img-style"/>{country.name}</li>
                             )
@@ -51,7 +55,23 @@ class CountryFilter extends React.Component{
                     }
                 </ul>
             </div>
-            <Recipie />
+           
+           <div>
+               {
+                   arr.map((element) => {
+                    return(
+                        <Recipie title={element.title} key={element.id} 
+                        rating={element.rating} 
+                        ingredients={element.ingredients}
+                        description={element.description}
+                        url={element.url}
+                        steps={element.steps}
+                        id={element.id}
+                        />
+                    )
+                   })
+               }
+           </div>
             </>
         )
     }

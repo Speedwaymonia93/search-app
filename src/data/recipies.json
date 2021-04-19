@@ -2,6 +2,7 @@
     {
       "id": "rec1",
       "title": "Creamy curry with prawns and coconut milk",
+      "country": "Poland",
       "rating": 3,
       "category": "seafood",
       "ingredients": [
@@ -32,6 +33,7 @@
       "id": "rec2",
       "title": "Shrimp fried in beer batter served with tartar sauce and capers. ",
       "rating": 3,
+      "country": "Mexico",
       "category": "seafood",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
       "ingredients": [
@@ -59,6 +61,7 @@
       "id": "rec3",
       "title": "Tandoori chicken. Chicken legs in aromatic marinade with yoghurt",
       "rating": 2,
+      "country": "Poland",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
       "category": "chicken",
       "ingredients": [
@@ -87,6 +90,7 @@
    {
       "id": "rec4",
       "title": "Chicken Saltimbocca.",
+      "country": "Italy",
       "rating": 5,
       "description": "Chicken fillets fried with sage and Parma ham with wine-butter sauce and cherry tomatoes. In the traditional version, Saltimbocca is prepared with veal schnitzels and no tomatoes.",
       "category": "chicken",
@@ -115,6 +119,7 @@
       "id": "rec5",
       "title": "Boeuf Bourguignon - Beef in Burgundy. French beef stew with mushrooms and red wine s.",
       "rating": 4,
+      "country": "Poland",
       "category": "beef",
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat odio ac nibh molestie efficitur. Integer in metus rhoncus dolor cursus viverra eu at felis. Vivamus gravida mauris augue, eu egestas neque euismod sit amet.",
       "ingredients": [
@@ -151,6 +156,7 @@
   {
       "id": "rec6",
       "title": "Stir-fry with beef and broccoli",
+      "country": "Mexico",
       "description":"Chinese wok dish with thinly sliced beef and broccoli in a thick sauce, served with rice.",
       "rating": 3,
       "category": "beef",
